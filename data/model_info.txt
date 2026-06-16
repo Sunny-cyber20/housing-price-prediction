@@ -1,0 +1,27 @@
+
+MODEL TRAINING SUMMARY
+======================
+
+Best Model: Ridge Regression
+
+Performance Metrics:
+- Test R² Score: 0.0855
+- Test MAE: ₹10,424,440
+- Test RMSE: ₹20,989,489
+- Train R² Score: 0.1150
+
+Model Description:
+Ridge(alpha=10.0)
+
+All Models Trained:
+1. Linear Regression - Test R²: 0.0744
+2. Ridge Regression - Test R²: 0.0855
+3. Random Forest - Test R²: 0.0496
+4. Gradient Boosting - Test R²: 0.0517
+5. Lasso Regression - Test R²: 0.0729
+
+Files Saved:
+- models/best_model_ridge_regression.pkl
+- data/model_comparison_results.csv
+- plots/06_model_comparison.png
+- plots/07_best_model_analysis.png
